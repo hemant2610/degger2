@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Notification Settings">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_enablenotify"
+            android:summary="Notification - OFF"
+            android:title="Notification" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="@string/pref_key_enablenotify"
+            android:key="@string/pref_key_vibrate"
+            android:summary="Vibration ON/OFF"
+            android:title="Vibrate when ringing" />
+
+        <EditTextPreference
+            android:title="hiiii"
+            android:summary="gyghjghjghj"
+            android:key="prefUsername"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

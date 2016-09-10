@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_my_json_data">MyJsonData</string>
+
+    <string name="title_activity_user_setting">UserSettingActivity</string>
+
+
+    <string name="pref_key_NumberPicker">NumberPickerSetting</string>
+
+    <string name="notificationOn">Notification - ON</string>
+    <string name="notificationOff">Notification - OFF</string>
+    <string name="pref_key_vibrate">VibrationSetting</string>
+
+
+    <string name="pref_key_enablenotify">on</string>
+</resources>
